@@ -1,0 +1,6 @@
+[package]
+name = "kooka-core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]

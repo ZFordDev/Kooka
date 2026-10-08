@@ -1,0 +1,10 @@
+[package]
+name = "kooka-windows"
+version.workspace = true
+edition.workspace = true
+
+[target.'cfg(windows)'.dependencies]
+windows = "0.62"
+
+[dependencies]
+kooka-core = { path = "../kooka-core" }

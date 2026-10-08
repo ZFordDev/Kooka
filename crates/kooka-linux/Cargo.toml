@@ -1,0 +1,10 @@
+[package]
+name = "kooka-linux"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+kooka-core = { path = "../kooka-core" }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+gtk4 = "0.10"
